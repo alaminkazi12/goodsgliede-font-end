@@ -6,7 +6,7 @@ const Logo = () => {
     <>
       <Link to="/">
         <div className=" cursor-pointer">
-          <p className=" uppercase text-2xl  md:text-3xl lg:text-4xl orbitro font-bold">
+          <p className=" uppercase text-2xl  md:text-3xl lg:text-4xl oswald font-medium">
             GoodsGlide <span className=" text-red-500">.</span>
           </p>
         </div>
