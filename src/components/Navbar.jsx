@@ -1,16 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "./Logo";
 import { Link, NavLink } from "react-router-dom";
 import { CiSearch } from "react-icons/ci";
 import { FaUserAlt } from "react-icons/fa";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
+  const [visible, setVisible] = useState(false);
+
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       {/* menu bar for mob  */}
-      <HiMenuAlt2 className=" text-[20px] md:hidden cursor-pointer" />
+      <HiMenuAlt2
+        onClick={() => setVisible(true)}
+        className=" text-[20px] md:hidden cursor-pointer"
+      />
+      {/* sidebar menue for small screen */}
+      <div
+        className={` pt-6  absolute top-0  bottom-0 overflow-hidden bg-white transition-all ${
+          visible ? "w-full right-0" : "w-0 -right-4"
+        }`}
+      >
+        <div className="flex flex-col text-gray-600 ">
+          <div
+            onClick={() => setVisible(false)}
+            className="flex items-center gap-2 mb-4 text-lg  cursor-pointer hover:text-black"
+          >
+            <RxCross1 className="text-xl" /> Close
+          </div>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border hover:text-black"
+            to="/"
+          >
+            HOME
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border hover:text-black"
+            to="/collection"
+          >
+            COLLECTION
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border hover:text-black"
+            to="/about"
+          >
+            ABOUT
+          </NavLink>
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border hover:text-black"
+            to="/contact"
+          >
+            CONTACT
+          </NavLink>
+        </div>
+      </div>
+
       {/* logo */}
       <Logo></Logo>
 
