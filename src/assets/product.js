@@ -11,6 +11,7 @@ export const products = [
     product_type: "Pants",
     product_price: 32.99,
     customer_ratings: 4.4,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Mark Zuckerberg",
@@ -31,6 +32,7 @@ export const products = [
     product_type: "Top",
     product_price: 49.99,
     customer_ratings: 4.6,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Olivia Wilde",
@@ -51,6 +53,7 @@ export const products = [
     product_type: "Pants",
     product_price: 39.99,
     customer_ratings: 4.5,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Chris Evans",
@@ -71,6 +74,7 @@ export const products = [
     product_type: "Coat",
     product_price: 99.99,
     customer_ratings: 4.9,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Megan Fox",
@@ -91,6 +95,7 @@ export const products = [
     product_type: "Jacket",
     product_price: 55.99,
     customer_ratings: 4.7,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Michael Jordan",
@@ -111,6 +116,7 @@ export const products = [
     product_type: "Boots",
     product_price: 89.99,
     customer_ratings: 4.8,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Rachel Green",
@@ -131,6 +137,7 @@ export const products = [
     product_type: "Shoes",
     product_price: 79.99,
     customer_ratings: 4.9,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Jordan Phillips",
@@ -151,6 +158,7 @@ export const products = [
     product_type: "Hoodie",
     product_price: 49.99,
     customer_ratings: 4.7,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Will Smith",
@@ -171,6 +179,7 @@ export const products = [
     product_type: "Jacket",
     product_price: 69.99,
     customer_ratings: 4.8,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Jennifer Aniston",
@@ -191,6 +200,7 @@ export const products = [
     product_type: "Shirt",
     product_price: 29.99,
     customer_ratings: 4.5,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Tom Hanks",
@@ -211,6 +221,7 @@ export const products = [
     product_type: "Pants",
     product_price: 24.99,
     customer_ratings: 4.7,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Sarah Connor",
@@ -231,6 +242,7 @@ export const products = [
     product_type: "Shorts",
     product_price: 19.99,
     customer_ratings: 4.5,
+    best_seller: true,
     reviews: [
       {
         customer_name: "David Beckham",
@@ -251,6 +263,7 @@ export const products = [
     product_type: "Blouse",
     product_price: 35.99,
     customer_ratings: 4.6,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Emma Stone",
@@ -271,6 +284,7 @@ export const products = [
     product_type: "Suit",
     product_price: 199.99,
     customer_ratings: 4.9,
+    best_seller: true,
     reviews: [
       {
         customer_name: "James Bond",
@@ -291,6 +305,7 @@ export const products = [
     product_type: "Coat",
     product_price: 119.99,
     customer_ratings: 4.8,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Kate Middleton",
@@ -311,6 +326,7 @@ export const products = [
     product_type: "Jeans",
     product_price: 49.99,
     customer_ratings: 4.5,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Ryan Gosling",
@@ -331,6 +347,7 @@ export const products = [
     product_type: "T-Shirt",
     product_price: 14.99,
     customer_ratings: 4.6,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Chris Hemsworth",
@@ -351,6 +368,7 @@ export const products = [
     product_type: "Dress",
     product_price: 39.99,
     customer_ratings: 4.7,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Anne Hathaway",
@@ -371,6 +389,7 @@ export const products = [
     product_type: "Belt",
     product_price: 24.99,
     customer_ratings: 4.6,
+    best_seller: true,
     reviews: [
       {
         customer_name: "Brad Pitt",
@@ -391,6 +410,7 @@ export const products = [
     product_type: "Boots",
     product_price: 59.99,
     customer_ratings: 4.8,
+    best_seller: false,
     reviews: [
       {
         customer_name: "Zendaya",
